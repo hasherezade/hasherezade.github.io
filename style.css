@@ -78,6 +78,13 @@ h2{
   border-radius: 50%;
 }
 
+.icon {
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+}
+
  /* unvisited link */
 a:link {
   color: white;
