@@ -9,7 +9,7 @@
 
 /* code that is here, until the first @media block, will apply to any screen size */
 .view_adjusted {
-    width: 70%;
+    width: 60%;
 }
 
 @media screen and (max-width: 320px) {
@@ -24,7 +24,7 @@
     width: 320px ;
   }
 }
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 481px) and (max-width: 600px){
   /* comes into effect for screens larger than or equal to 481 pixels */
   .view_adjusted {
     width: 480px ;
@@ -72,10 +72,15 @@ h2{
   color: white;
   border-radius: 15px;
   display: block;
-  margin-right: auto;
+  margin: 20px;
   align-items: center;
   padding: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.links_box {
+  margin: 20px;
+  align-items: center;
 }
 
 .avatar {
