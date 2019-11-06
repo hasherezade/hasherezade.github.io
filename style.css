@@ -9,19 +9,13 @@
 
 /* code that is here, until the first @media block, will apply to any screen size */
 .view_adjusted {
-    width: 780px ;
+    width: 50% ;
 }
 
-@media screen and (max-width: 480px) {
-  /* comes into effect for screens between 320 and 480 pixels */
+@media screen and (max-width: 600px){
+  /* comes into effect for screens nax 600 pixels */
   .view_adjusted {
     width: 100% ;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 600px){
-  /* comes into effect for screens between 480 and 600 pixels */
-  .view_adjusted {
-    width: 480px ;
   }
 }
 
@@ -91,7 +85,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: purple;
+  color: goldenrod;
 }
 
 /* mouse over link */
@@ -101,7 +95,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: purple;
 }
 
 .myButton {
