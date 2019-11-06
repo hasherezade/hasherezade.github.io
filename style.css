@@ -9,7 +9,7 @@
 
 /* code that is here, until the first @media block, will apply to any screen size */
 .view_adjusted {
-    width: 60%;
+    width: 50%;
 }
 
 @media screen and (max-width: 320px) {
@@ -25,7 +25,7 @@
   }
 }
 @media screen and (min-width: 481px) and (max-width: 600px){
-  /* comes into effect for screens larger than or equal to 481 pixels */
+  /* comes into effect for screens between 481 and 600 pixels (inclusive) */
   .view_adjusted {
     width: 480px ;
   }
