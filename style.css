@@ -12,20 +12,20 @@
     width: 50%;
 }
 
-@media screen and (max-width: 320px) {
-  /* comes into effect for screens less than or equal to 320 pixels */
+@media screen and (max-width: 319px) {
+  /* comes into effect for screens less than 320 pixels */
   .view_adjusted {
     width: 120px ;
   }
 }
-@media screen and (min-width: 321px) and (max-width: 480px) {
-  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  /* comes into effect for screens between 320 and 480 pixels */
   .view_adjusted {
     width: 320px ;
   }
 }
-@media screen and (min-width: 481px) and (max-width: 600px){
-  /* comes into effect for screens between 481 and 600 pixels (inclusive) */
+@media screen and (min-width: 480px) and (max-width: 600px){
+  /* comes into effect for screens between 480 and 600 pixels */
   .view_adjusted {
     width: 480px ;
   }
