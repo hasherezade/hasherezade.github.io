@@ -1,3 +1,38 @@
+@viewport {
+  width: device-width;
+  zoom: 1.0 ;
+} 
+
+@-ms-viewport {
+  width: device-width;
+}
+
+/* code that is here, until the first @media block, will apply to any screen size */
+.view_adjusted {
+    width: 70%;
+}
+
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  .view_adjusted {
+    width: 120px ;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  .view_adjusted {
+    width: 320px ;
+  }
+}
+@media screen and (min-width: 481px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+  .view_adjusted {
+    width: 480px ;
+  }
+}
+
+/* code that is here will apply to any screen size */ 
+
 p {
   color: white;
   text-align: center;
@@ -32,11 +67,10 @@ h2{
   letter-spacing: +1px;
 }
 
-.central_box{
+.central_box {
   background-color: #222222;
-  color:white;
+  color: white;
   border-radius: 15px;
-  width: 50%;
   display: block;
   margin-right: auto;
   align-items: center;
@@ -96,5 +130,3 @@ a:active {
 	position:relative;
 	top:1px;
 }
-
-        
