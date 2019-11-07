@@ -52,7 +52,7 @@ h1 {
 } 
 
 h2{
-  letter-spacing: +1px;
+  letter-spacing: +3px;
 }
 
 .central_box {
@@ -113,6 +113,22 @@ a:active {
 	filter: invert(100%);
 }
 
+.blurb_box {
+  background-color: #444444;
+  color: white;
+  border-radius: 15px;
+  display: block;
+  margin: 3px;
+  text-align: left;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blurb_box:hover {
+  background-color: #222222;
+  color: white;
+}
+
 .myButton {
 	box-shadow:inset 0px 1px 0px 0px #a6827e;
 	background:linear-gradient(to bottom, #7d5d3b 5%, #634b30 100%);
@@ -148,7 +164,6 @@ a:active {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
   background-color: black;
   color: #fff;
   text-align: center;
