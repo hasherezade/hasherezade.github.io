@@ -30,7 +30,9 @@ p {
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #e8e7e2;
+  background-color: e8e7e2;
+  background: -webkit-linear-gradient(315deg, #e8e7e2 0%, #e8e7e2 47%, #444444 100%) fixed;
+  background: linear-gradient(135deg, #e8e7e2 0%, #e8e7e2 40%, #444444 100%) fixed;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
