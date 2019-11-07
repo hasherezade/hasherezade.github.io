@@ -164,8 +164,9 @@ a:active {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  background-color: black;
-  color: #fff;
+  background-color: white;
+  color: black;
+  min-width: 350px;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -179,4 +180,5 @@ a:active {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+  opacity: 0.9;
 }
