@@ -211,17 +211,17 @@ a:active {
 
 .no_bg
 {
-	color:#000000;
+	color:#ffffff;
 	text-decoration:none;
 }
 
 .no_bg:link
 {
-	color:#000000;
+	color:#ffffff;
 	text-decoration:none;
 }
 
 .no_bg:hover
 {
-	color:green;
+	color:lime;
 }
