@@ -9,11 +9,11 @@
 
 /* code that is here, until the first @media block, will apply to any screen size */
 .view_adjusted {
-    width: 50% ;
+    width: 1024px;
 }
 
-@media screen and (max-width: 600px){
-  /* comes into effect for screens nax 600 pixels */
+@media screen and (max-width: 1024px) {
+  /* comes into effect for screens bigger than max-width pixels */
   .view_adjusted {
     width: 100% ;
   }
