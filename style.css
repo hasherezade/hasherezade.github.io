@@ -82,6 +82,11 @@ h2{
   align-items: center;
 }
 
+.content_box {
+  margin: 1.5%;
+}
+
+
 .avatar {
   vertical-align: middle;
   width: 100px;
