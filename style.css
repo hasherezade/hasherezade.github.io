@@ -209,13 +209,19 @@ a:active {
   opacity: 0.7;
 }
 
-a.no_bg
+.no_bg
 {
 	color:#000000;
 	text-decoration:none;
 }
 
-a.no_bg:hover
+.no_bg:link
+{
+	color:#000000;
+	text-decoration:none;
+}
+
+.no_bg:hover
 {
 	color:green;
 }
