@@ -7,6 +7,11 @@
   width: device-width;
 }
 
+@html {
+   -webkit-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+}
+
 /* code that is here, until the first @media block, will apply to any screen size */
 .view_adjusted {
     width: 1024px;
