@@ -172,6 +172,14 @@ a:active {
 	top:1px;
 }
 
+.buildButton {
+	background-color:none;
+	display:inline-block;
+	align-items: right;
+	padding:6px 24px;
+	margin: 3px;
+}
+
 .tooltip {
   position: relative;
   display: inline-block;
