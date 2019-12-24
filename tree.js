@@ -9,7 +9,7 @@ function makeTree(height = 6)
     var snow = "-*-";
     var snowC = 4;
 
-    var background ="#000011";
+    var background ="#00001A";
     treeHtml = "<pre style=\"background-color:"+background+";\"><center>\n\n";
     treeHtml += "<font color=\"YELLOW\">/\\\n<     >\n\\/\n</font>"; // star
     treeHtml += "<font color=\"LIME\">";
